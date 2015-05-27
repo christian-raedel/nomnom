@@ -1,7 +1,7 @@
 {
   "name": "nomnom",
   "description": "Option parser with generated usage and commands",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "author": "Heather Arthur <fayearthur@gmail.com>",
   "scripts": {
     "test": "./node_modules/.bin/nodeunit test/*.js"
@@ -19,10 +19,10 @@
     "parser"
   ],
   "dependencies": {
-    "underscore": "~1.6.0",
-    "chalk": "~0.4.0"
+    "chalk": "^1.0.0",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
-    "nodeunit": "~0.7.4"
+    "nodeunit": "^0.9.1"
   }
 }
