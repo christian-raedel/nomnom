@@ -191,6 +191,9 @@ nomnom.option('count', {
 })
 ```
 
+Can be used for example together with the default value to set options from process.env['ENVIRONMENT_VARIABLE'].
+In this case a message is printed, if the environment is not set and the argument is not given.
+
 #### position
 
 The position of the option if it's a positional argument. If the option should be matched to the first positional arg use position `0`, etc.
